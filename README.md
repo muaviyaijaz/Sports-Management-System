@@ -13,39 +13,39 @@ Select either one of the login options or the admin signup option,otherwise view
 
 Fill the required fields accordingly.
 
-    1.If you've logged in as a user, you can view points table,fixtures,teams,top scorers,certificate,match summary and can do payment(in pay later option case)      
+   1.If you've logged in as a user, you can view points table,fixtures,teams,top scorers,certificate,match summary and can do payment(in pay later option case)      
 
-    2.If you've logged in as an organizer, you can do all of user things above except view certificate and can add,update match,create summary.
+   2.If you've logged in as an organizer, you can do all of user things above except view certificate and can add,update match,create summary.
 
-    3.If you've logged in as an admin, you can do all of above things + see personal info of teams and organizers,update points table.
+   3.If you've logged in as an admin, you can do all of above things + see personal info of teams and organizers,update points table.
+   
+   a)Create summary.
+       Enter details of match and then save button.
 
-                a)Create summary.
-                      Enter details of match and then save button.
+   b)View fixtures.
+       Fixtures will be generated.
 
-                b)View fixtures.
-                      Fixtures will be generated.
+   c)Update PointsTable
+       Points table will be updated acc to summary.
 
-                c)Update PointsTable
-                        points table will be updated acc to summary.
-
-	              d)view player certificate
-                         certificate generated
+   d)view player certificate
+       Certificate generated
                 
-	            	e)user profile
-                        user can see his personal info
+   e)user profile
+       User can see his personal info
                 
-                f)add match
-                        can add fixtures by writing date and selecting venue,time.
+   f)add match
+       Can add fixtures by writing date and selecting venue,time.
 
-                g)view teams data
-                        can see teams info and their players stats.
+   g)view teams data
+       Can see teams info and their players stats.
 
-                h)send notification
-                        admin can send notification via email/sms to users(organizers or users), receive func not proposed
-                            but data getting stored in db of the notifications admin has sent.
+   h)send notification
+       Admin can send notification via email/sms to users(organizers or users), receive func not proposed
+       but data getting stored in db of the notifications admin has sent.
 		
-	            	i)allocating official
-                         we could allocate official in add match dialog
+   i)allocating official
+       We could allocate official in add match dialog
                  
 Once you've done all of the things, you can LOGOUT too .
 
